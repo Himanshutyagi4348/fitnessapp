@@ -34,7 +34,7 @@ final Map<ExerciseType, ExerciseConfig> kExercises = {
     angleSelector: (pose) => PoseAngles.of(pose).leftKnee ?? 180,
     downAngle: 90,
     upAngle: 160,
-  ),
+  ), //bicepcurl
   ExerciseType.bicepCurl: ExerciseConfig(
     label: 'Bicep Curls',
     icon: Icons.fitness_center,
